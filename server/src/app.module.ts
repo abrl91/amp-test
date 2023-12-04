@@ -31,6 +31,7 @@ import { AuthModule } from "./auth/auth.module";
     ServeStaticModule.forRootAsync({
       useClass: ServeStaticOptionsService,
     }),
+
   ],
   providers: [],
 })
